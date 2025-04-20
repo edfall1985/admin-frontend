@@ -1,0 +1,9 @@
+{
+    "name": "admin-frontend",
+    "version": "1.0.0",
+    "description": "Static admin login page for Digtri",
+    "scripts": {
+      "start": "echo 'No server needed'"
+    }
+  }
+  
