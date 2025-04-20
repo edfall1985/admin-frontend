@@ -2,13 +2,21 @@
   "name": "tailwind-starter",
   "version": "1.0.0",
   "scripts": {
-  "build": "npx tailwindcss -i src/css/style.css -o public/css/style.css --minify",
-  "start": "echo 'Static only'"
+    "build": "npx tailwindcss -i ./src/css/style.css -o ./public/css/style.css --minify"
+    
   },
   "devDependencies": {
     "autoprefixer": "^10.0.0",
     "postcss": "^8.0.0",
     "tailwindcss": "^3.0.0"
-  }
+  },
   
+  "dependencies": {
+  "tailwindcss": "^3.0.0",
+  "postcss": "^8.0.0",
+  "autoprefixer": "^10.0.0"
+  }
+
 }
+
+
