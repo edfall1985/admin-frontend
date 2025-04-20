@@ -1,7 +1,5 @@
 {
     "buildCommand": "",
     "startCommand": "",
-    "static": {
-      "directory": "./"
-    }
-  }
+    "static": { "directory": "./" }
+}
