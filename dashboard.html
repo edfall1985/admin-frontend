@@ -1,0 +1,27 @@
+<!-- dashboard.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard Admin | digtri.com</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar bg-dark text-white p-3">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1 text-white">Admin Digtri</span>
+      <button onclick="logout()" class="btn btn-sm btn-danger">Logout</button>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h3>Selamat datang, <span id="userEmail"></span></h3>
+    <p>Ini adalah halaman dashboard admin.</p>
+    <!-- Konten admin lainnya bisa dimuat di sini -->
+  </div>
+
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
