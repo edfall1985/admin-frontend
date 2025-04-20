@@ -1,9 +1,7 @@
 {
-    "buildCommand": "",
-    "startCommand": "",
-    "static": {
-      "directory": "./",
-      "ignore": ["package.json"]
-    }
+  "buildCommand": "",
+  "startCommand": "",
+  "static": {
+    "directory": "public"
   }
-  
+}
